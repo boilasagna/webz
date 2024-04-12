@@ -1,0 +1,95 @@
+@font-face {
+    font-family:font;
+    src: url(CustomFonts/Anta-Regular.ttf);
+}
+@font-face {
+    font-family:ifont;
+    src: url(CustomFonts/BebasNeue-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body {
+    background-image:url(img/loginback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    padding: 20px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+}
+
+.wrapper h1 {
+    font-family:font;
+    letter-spacing: 2px;
+    color:rgb(255, 0, 255);
+    text-shadow: 0px 0px 1px , 0px 0px 5px ;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.wrapper .inputbox {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.inputbox input {
+    font-family: Segoe UI;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    padding-left: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-radius: 50px;
+}
+.inputbox input::placeholder{
+color: rgba(255, 255, 255, 0.842);
+}
+
+.inputbox i {
+    position: relative;
+    top: -35px;
+    left: 90%;
+    color: white;
+}
+
+.remember {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+input[type='checkbox']{
+    accent-color: rgba(255, 126, 52, 0.986);
+}
+.btn {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-radius: 50px;
+    background-color: white;
+}
