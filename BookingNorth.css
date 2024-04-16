@@ -1,0 +1,153 @@
+@font-face {
+    font-family:font;
+    src: url(CustomFonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family:pfont;
+    src: url(CustomFonts/RobotoMono-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/passucone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(1px);
+}
+header{
+    background-color: rgba(255, 255, 255, 0.623);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navlinks{
+margin-right: 20px;
+    list-style-type: none;
+}
+.navlinks li{
+    display:inline-block;
+    margin-left: 20px;
+}
+.navlinks li a{
+    font-family: pfont;
+    text-decoration: none;
+    color: black;
+}
+.navlinks li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.2s ease;
+}
+.logo{
+    font-family:font;
+    letter-spacing: 2px;
+    margin-left: 40px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.c1head{
+    font-family:font;
+    font-size: 2.5em;
+    color: white;
+margin: 50px 0px 0px 0px;
+}
+.c1para{
+    text-shadow: 1px 1px 5px black , -1px -1px 5px black    ;
+    color: white;
+    font-family: pfont , verdana;
+    text-align: center;
+margin: 10px 0px 0px 0px;
+}
+.c1head2{
+    font-size: 1.5em;
+    font-family: verdana;
+    color: white;
+margin:20px 0px 0px 0px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.container2 .post{
+    height: 460px;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.2) ,  -1px -1px 5px rgba(255, 255, 255, 0.2);
+}
+.post .img{
+    background-color: blue;
+    height: 150px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+.img1{
+    background-image: url(img/skardu.jpeg);
+}
+.img2{
+    background-image: url(img/hunza.jpg);
+}
+.img3{
+    background-image: url(img/khaplu.jpg);
+}
+.img4{
+background-image:url(img/shigar.jpg);
+}
+.img5{
+background-image: url(img/deosai.jpg);
+}
+.img6{
+background-image: url(img/vorkuta.jpeg);
+}
+.post h2{
+    padding-left: 10px;
+    font-family:font;
+}
+.post p{
+    padding-left:10px;
+    padding-right: 10px;
+    font-family: pfont;
+    margin-bottom: 15px;
+    height: 190px;
+
+}
+.post a{
+text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    width: 130px;
+    display: inline-block;
+    border: 2px solid none;
+    border-radius: 20px;
+    font-family: pfont;
+    color: white;
+    background-color: rgb(32, 32, 32);
+
+}
+.post:hover{
+    transition: all 0.5s ease;
+transform: scale(1.01);
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
+
+}
+.post a:hover{
+    transition: all 0.2s ease;
+    color: rgb(32, 32, 32);
+    background-color: white;
+}
